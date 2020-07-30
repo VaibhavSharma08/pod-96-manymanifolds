@@ -11,7 +11,7 @@
 ![Project Landing Image](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/pod-96-manimanifolds.png?raw=true)
 
 #### Project Contributors:
-[Narotam Singh](https://github.com/narotamsingh) (@narotamsingh)  
+[Narotam Singh](https://scholar.google.com/citations?user=ykkiUvcAAAAJ&hl=en) ([@narotamsingh](https://github.com/narotamsingh))  
 Prakriti Nayak (@PrakritiNayak)  
 Rishika Mohanta (@neurorishika)  
 Vaibhav Sharma (@VaibhavSharma08)  
@@ -26,7 +26,16 @@ Vaibhav Sharma (@VaibhavSharma08)
 
 #### Data Description
 
+#### Refrences
 
-This project was done as part of [Neuromatch Academy] July 13-31 2020
+* K.V. Shenoy, M. Sahani, M.M. Churchland Cortical control of arm movements: a dynamical systems perspective Annu. Rev. Neurosci., 36 (2013), pp. 337-359
+* Gallego JA, Perich MG, Miller LE, Solla SA. Neural manifolds for the control of movement. Neuron. 2017 Jun 7;94(5):978-84.
+
+#### Acknowledgements
+
+The project members express their gratitude to the entire NMA team for making and conducting the Neuromatch Academy 2020. A special thanks to our Mentor [Jason Ritt](https://vivo.brown.edu/display/jritt). And last but not the least our TA [Shagun Ajmera](https://scholar.google.com/citations?user=Kr9Y0eMAAAAJ&hl=en) 
+
+
+This project was done as part of [Neuromatch Academy](https://www.neuromatchacademy.org) July 13-31 2020
 
 Project Code and Data Archive under MIT Licence. 2020
