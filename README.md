@@ -11,7 +11,7 @@
 ![Project Landing Image](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/pod-96-manimanifolds.png?raw=true)
 
 #### Project Contributors:
-Narotam Singh (@narotamsingh)  
+![Narotam Singh](https://github.com/narotamsingh) (@narotamsingh)  
 Prakriti Nayak (@PrakritiNayak)  
 Rishika Mohanta (@neurorishika)  
 Vaibhav Sharma (@VaibhavSharma08)  
