@@ -12,9 +12,9 @@
 
 #### Project Contributors:
 [Narotam Singh](https://scholar.google.com/citations?user=ykkiUvcAAAAJ&hl=en) ([@narotamsingh](https://github.com/narotamsingh))  
-Prakriti Nayak (@PrakritiNayak)  
-Rishika Mohanta (@neurorishika)  
-Vaibhav Sharma (@VaibhavSharma08)  
+Prakriti Nayak ([@PrakritiNayak](https://github.com/PrakritiNayak))  
+[Rishika Mohanta](https://orcid.org/0000-0002-1396-3215) ([@neurorishika](https://github.com/neurorishika))  
+[Vaibhav Sharma](https://www.linkedin.com/in/vaibhavsharma08/) ([@VaibhavSharma08](https://github.com/VaibhavSharma08))  
 
 #### Introduction
 
@@ -26,10 +26,14 @@ Vaibhav Sharma (@VaibhavSharma08)
 
 #### Data Description
 
-#### Refrences
+#### References
 
-* K.V. Shenoy, M. Sahani, M.M. Churchland Cortical control of arm movements: a dynamical systems perspective Annu. Rev. Neurosci., 36 (2013), pp. 337-359
-* Gallego JA, Perich MG, Miller LE, Solla SA. Neural manifolds for the control of movement. Neuron. 2017 Jun 7;94(5):978-84.
+* Shenoy, Krishna V., Maneesh Sahani, and Mark M. Churchland. "Cortical control of arm movements: a dynamical systems perspective." Annual review of neuroscience 36 (2013).
+* Gallego, Juan A., Matthew G. Perich, Lee E. Miller, and Sara A. Solla. "Neural manifolds for the control of movement." Neuron 94, no. 5 (2017): 978-984.
+* Byron, M. Yu, John P. Cunningham, Gopal Santhanam, Stephen I. Ryu, Krishna V. Shenoy, and Maneesh Sahani. "Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity." In Advances in neural information processing systems, pp. 1881-1888. 2009.
+* Yegenoglu, Alper, Detlef Holstein, Long Duc Phan, Michael Denker, Andrew Davison, and Sonja Grün. Elephant–open-source tool for the analysis of electrophysiological data sets. No. FZJ-2015-06042. Computational and Systems Neuroscience, 2015.
+* Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel et al. "Scikit-learn: Machine learning in Python." the Journal of machine Learning research 12 (2011): 2825-2830.
+* Waskom, M. "seaborn: statistical data visualization. Python 2.7 and 3.5."
 
 #### Acknowledgements
 
