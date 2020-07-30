@@ -15,16 +15,50 @@ Prakriti Nayak ([@PrakritiNayak](https://github.com/PrakritiNayak))
 [Rishika Mohanta](https://orcid.org/0000-0002-1396-3215) ([@neurorishika](https://github.com/neurorishika))  
 [Vaibhav Sharma](https://www.linkedin.com/in/vaibhavsharma08/) ([@VaibhavSharma08](https://github.com/VaibhavSharma08))  
 
+#### Scientific Question
+
+Can neuronal spikes and population activity in different motor implicated regions of the rodent brain predict the motor output and directional motor output accurately?
+
 #### Introduction
+
+There exists a high degree of correlation and redundancy in the activity of neural populations across different regions of the brain. Motor function is a result of multiple activities coordinating over various regions, governing from the decision to carry the output to the performance of the same. In this project, we explored different approaches to decode activity from motor implicated regions in rodents using spike and population activity data.
 
 #### Methods
 
+##### Original Experiment Description
+Read about the details of the experiment at https://doi.org/10.1038/s41586-019-1787-x. We are concerned with the motor activity (motion of the wheel) during the duration when the visual stimulus is not correlated with motion of the wheel to avoid confounders.
+
+##### Data source
+The original data is from "Distributed coding of choice, action and engagement across the mouse brain." Steinmetz et al. (2019). The original raw data is available at https://figshare.com/articles/steinmetz/9598406. We use a precleaned version provided for us by Neuromatch Academy available under the Open Science Framework (OSF) at https://osf.io/agvxh (part 1), https://osf.io/uv3mw (part 2), and https://osf.io/ehmw2 (part 3). 
+
+We then further cleaned to consider only recordings from motor related areas with more than 50 neurons from atleast 2 mice (figures below). We only considered the the open loop condition ie. data between stimulus onset and go cue to avoid representations of moving stimulus from appearing in the neural data we are analysing. 
+
+![Motor Control Schematic](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/motor_control_schematic.png?raw=true)
+![Data Summary](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/data_summary.png?raw=true)
+
+##### A Pluralistic Strategy
+Our mentor [@JasonRitt](https://github.com/brownritt) made a really inspiring statement which amounted to something like "Sometimes, there is no one best way to do something. Find a reasonably good way to go ahead, and acknowledge the limitations." We took it to heart and decided to take a pluralistic approach to answering our question.
+
+![Pluralistic Approach](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/pluralistic_approach.png?raw=true)
+
+##### Population Spike Code Approach
+We implemented a General Linear Model with Spiking History pipeline in ``python 3.6`` to decode the motor output (``wheel``) from the neural spike data from 50 randomly sampled neurons from 100 randomly sampled trials from different (Session, Brain Area) pairs. We implemented this using Cross Validated Ridge Regressor in the ``scikit-learn`` package.  The length of the temporal kernel ie. the spiking history required for the decoding models to decode optimally can vary from region to region. So we evaluate different kernel sizes between 50 to 250ms and choose the optimal kernel size for analysis.
+
+##### Latent Information Approach Pipeline
+
+We implemented a pipeline to compute latent dimensions of the neural spike data from 50 randomly sampled neurons from 100 randomly sampled trials using the Gaussian Process Factor Analysis (Yu, 2009) implemention in the ELEctroPHysiology ANalysis Toolbox (``Elephant`` package in ``python 3.6``). This was followed by a Ridge Regression to reconstruct motor output (``wheel``) and Linear Discriminant Analysis (LDA) to classify left motor output, right motor output and no motor output.
+
 #### Results
+
+To be updated soon.
 
 #### Discussion
 
+To be updated soon.
+
 #### References
 
+* Steinmetz, Nicholas A., Peter Zatka-Haas, Matteo Carandini, and Kenneth D. Harris. "Distributed coding of choice, action and engagement across the mouse brain." Nature 576, no. 7786 (2019): 266-273.
 * Shenoy, Krishna V., Maneesh Sahani, and Mark M. Churchland. "Cortical control of arm movements: a dynamical systems perspective." Annual review of neuroscience 36 (2013).
 * Gallego, Juan A., Matthew G. Perich, Lee E. Miller, and Sara A. Solla. "Neural manifolds for the control of movement." Neuron 94, no. 5 (2017): 978-984.
 * Byron, M. Yu, John P. Cunningham, Gopal Santhanam, Stephen I. Ryu, Krishna V. Shenoy, and Maneesh Sahani. "Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity." In Advances in neural information processing systems, pp. 1881-1888. 2009.
