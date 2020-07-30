@@ -26,6 +26,11 @@ Vaibhav Sharma (@VaibhavSharma08)
 
 #### Data Description
 
+#### Refrences
+
+* K.V. Shenoy, M. Sahani, M.M. Churchland Cortical control of arm movements: a dynamical systems perspective Annu. Rev. Neurosci., 36 (2013), pp. 337-359
+* Gallego JA, Perich MG, Miller LE, Solla SA. Neural manifolds for the control of movement. Neuron. 2017 Jun 7;94(5):978-84.
+
 #### Acknowledgements
 
 The project members express their gratitude to the entire NMA team for making and conducting the Neuromatch Academy 2020. A special thanks to our Mentor [Jason Ritt](https://vivo.brown.edu/display/jritt). And last but not the least our TA [Shagun Ajmera](https://scholar.google.com/citations?user=Kr9Y0eMAAAAJ&hl=en) 
