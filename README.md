@@ -14,7 +14,7 @@
 [Narotam Singh](https://scholar.google.com/citations?user=ykkiUvcAAAAJ&hl=en) ([@narotamsingh](https://github.com/narotamsingh))  
 Prakriti Nayak ([@PrakritiNayak](https://github.com/PrakritiNayak))  
 [Rishika Mohanta](https://orcid.org/0000-0002-1396-3215) ([@neurorishika](https://github.com/neurorishika))  
-Vaibhav Sharma (@VaibhavSharma08)  
+Vaibhav Sharma ([@VaibhavSharma08](https://github.com/VaibhavSharma08))  
 
 #### Introduction
 
