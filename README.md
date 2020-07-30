@@ -26,7 +26,11 @@ Vaibhav Sharma (@VaibhavSharma08)
 
 #### Data Description
 
+#### Acknowledgements
 
-This project was done as part of [Neuromatch Academy] July 13-31 2020
+The project members express their gratitude to the entire NMA team for making and conducting the Neuromatch Academy 2020. A special thanks to our Mentor [Jason Ritt](https://vivo.brown.edu/display/jritt). And last but not the least our TA [Shagun Ajmera](https://scholar.google.com/citations?user=Kr9Y0eMAAAAJ&hl=en) 
+
+
+This project was done as part of [Neuromatch Academy](https://www.neuromatchacademy.org) July 13-31 2020
 
 Project Code and Data Archive under MIT Licence. 2020
