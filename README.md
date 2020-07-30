@@ -4,7 +4,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neurorishika/pod-96-manymanifolds/master)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/contributors/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
 
@@ -24,8 +23,6 @@ Prakriti Nayak ([@PrakritiNayak](https://github.com/PrakritiNayak))
 
 #### Discussion
 
-#### Data Description
-
 #### References
 
 * Shenoy, Krishna V., Maneesh Sahani, and Mark M. Churchland. "Cortical control of arm movements: a dynamical systems perspective." Annual review of neuroscience 36 (2013).
@@ -41,5 +38,5 @@ The project members express their gratitude to the entire NMA team for making an
 
 
 This project was done as part of [Neuromatch Academy](https://www.neuromatchacademy.org) July 13-31 2020
-
++
 Project Code and Data Archive under MIT Licence. 2020
