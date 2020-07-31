@@ -64,10 +64,6 @@ We found that our data set is not very balanced in terms of motor putput. For a 
 
 The details to be updated soon.
 
-#### Discussion
-
-To be updated soon.
-
 #### References
 
 * Steinmetz, Nicholas A., Peter Zatka-Haas, Matteo Carandini, and Kenneth D. Harris. "Distributed coding of choice, action and engagement across the mouse brain." Nature 576, no. 7786 (2019): 266-273.
