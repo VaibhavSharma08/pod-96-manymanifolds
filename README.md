@@ -37,7 +37,7 @@ We then further cleaned to consider only recordings from motor related areas wit
 #### Fig: A Schematic of the Motor Control System with regions involved and associated regions in Steinmetz et. al. 2019 Dataset
 
 ![Data Summary](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/data_summary.png?raw=true)
-#### Fig: Within trial distribution of motor output (``wheel`` velocity) in our duration of interest
+#### Fig: Summary of the Cleaned Data
 
 ### A Pluralistic Strategy
 Our mentor [@JasonRitt](https://github.com/brownritt) made a really inspiring statement which amounted to something like "Sometimes, there is no one best way to do something. Find a reasonably good way to go ahead, and acknowledge the limitations." We took it to heart and decided to take a pluralistic approach to answering our question.
