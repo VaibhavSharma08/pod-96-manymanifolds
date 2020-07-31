@@ -50,7 +50,19 @@ We implemented a pipeline to compute latent dimensions of the neural spike data 
 
 #### Results
 
-To be updated soon.
+##### Dataset for Left-Right motion is not completely balanced.
+
+![Output Balance](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/motor_output_balance.png?raw=true)
+
+We found that our data set is not very balanced in terms of motor putput. For a majority of the trial open loop duration the animal is not moving and is stationary. We have to account for this in our analysis. 
+
+##### Spikes from brain areas roughly predict Motor Output to different degrees
+![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/spikecode_illustration.png?raw=true)
+
+##### Latent Neural modes of different areas don’t separate Motor output Equally
+![GFPA-LDA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/latentcode_illustration.png?raw=true)
+
+The details to be updated soon.
 
 #### Discussion
 
