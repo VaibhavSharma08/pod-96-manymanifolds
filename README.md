@@ -81,10 +81,25 @@ The optimal temporal history required to predict the motor output highly varied 
 
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/d_sensitivity-GLM.png?raw=true)
 #### Fig: Sensitivity of length of temporal history to Session ID
-The optimal temporal history itself has sme sensitivity to Session ID
+The optimal temporal history itself has some sensitivity to Session ID
 
 ### Amount of Motor Information coded in the brain is different across Brain Regions
 Here, we try to quantify the information stored in the coefficients of the Linear Model coefficients. We look at the temporal coefficients for the 50 neurons and quantify the amount of information in the distribution of coefficients. If there is a diverity of kernels, it may suggest that different neurons are responsible for different properties of the motor output. We quantify the information in kernels by considering different metrics for information such as average entropy of coefficient distribution over time, average variability in coefficients over time, and fraction of PCs required to explain 90% variability.
+
+![Kernel Information Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/kernel_information.png?raw=true)
+#### Fig: Metrics for Information Content in Kernels
+
+We found that certain regions have average higher variance and entropy of kernel information. This seems to suggest that there is more diversity of information in certain regions vs others. the VPM while it doesnt do very well at coding for motor output the diversity of the kernel seems to suggest more diversity of information.
+
+![Kernel Information Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/measure_correlation.png?raw=true)
+#### Fig: Correlation between metrics for Information Content in Kernels
+
+We find that the entropy measure and variation measure are highly correlated across brain regions but the PCA participation fraction is quite variable and the correlation with other measures is region dependent. This might be becuase the PCA measure is normalised wrt kernel size.
+
+![Kernel Information Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/measure_correlation.png?raw=true)
+#### Fig: Sensitivity of metrics for Information Content in Kernels to Session ID
+
+As expected by the virtue of variability of biology and electrode sampling there is some degree of senstitivity to Session ID
 
 ### Latent Neural modes of different areas don’t separate Motor output Equally
 ![GFPA-LDA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/latentcode_illustration.png?raw=true)
