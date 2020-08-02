@@ -63,19 +63,28 @@ We found that our data set is not very balanced in terms of motor putput. For a 
 ##### Spikes from brain areas roughly predict Motor Output to different degrees
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/spikecode_illustration.png?raw=true)
 
-In our analysis of the Spike Trains using our time-resolved L2 regularised Linear Model based decoding model, we evaluated the model R^2 score and prediction-ground truth Pearson's correlation coefficient for 20 80%-20% train-test splits. We find that not all regions of the brain are equally good at predicting the motor output. Certain motor implicated regions can predict motion much better than others such as the primary motor cortex. Interstingly, regions associated with motor feedback such as the somatosensory cortex could also predict motor output effectively, while other regions such as mediodorsal nucleus of thalamus fails to predict it accurate. Futher, the two regression measures we used were highly correlated and the optimal temporal history required to predict the motor output highly varied in our constrained range of 10-250 ms. Further within regions there is huge variability in the ability to predict the motor output. This is true not only across mice and sessions but also within multiple samples from the same session.
-
+In our analysis of the Spike Trains using our time-resolved L2 regularised Linear Model based decoding model, we evaluated the model R^2 score and prediction-ground truth Pearson's correlation coefficient for 20 80%-20% train-test splits. 
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/regression_metrics_GLM.png?raw=true)
 #### Fig: Time-Resolved Linear Regression Goodness-of-Fit Analysis
+We find that not all regions of the brain are equally good at predicting the motor output. Certain motor implicated regions can predict motion much better than others such as the primary motor cortex. Interstingly, regions associated with motor feedback such as the somatosensory cortex could also predict motor output effectively, while other regions such as mediodorsal nucleus of thalamus fails to predict it accurate.
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/rvsr2_GLM.png?raw=true)
 #### Fig: Corelation between Goodness-of-Fit measures
+Futher, the two regression measures we used were highly correlated.
+
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/r2_sensitivity-GLM.png?raw=true)
 #### Fig: Senstivity of R^2 Score to Session ID
+Even within the same regions there is huge variability in the ability to predict the motor output. This is true not only across mice and sessions but also within multiple samples from the same session.
+
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/d_GLM.png?raw=true)
 #### Fig: Optimal Length of Temporal History required for predicting motor output
+The optimal temporal history required to predict the motor output highly varied in our constrained range of 10-250 ms suggesting different timescales of motor activity in the brain. 
+
 ![GLM Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/d_sensitivity-GLM.png?raw=true)
 #### Fig: Sensitivity of length of temporal history to Session ID
+The optimal temporal history itself has sme sensitivity to Session ID
 
+### Amount of Motor Information coded in the brain is different across Brain Regions
+Here, we try to quantify the information stored in the coefficients of the Linear Model coefficients. We look at the temporal coefficients for the 50 neurons and quantify the amount of information in the distribution of coefficients. If there is a diverity of kernels, it may suggest that different neurons are responsible for different properties of the motor output. We quantify the information in kernels by considering different metrics for information such as average entropy of coefficient distribution over time, average variability in coefficients over time, and fraction of PCs required to explain 90% variability.
 
 ### Latent Neural modes of different areas don’t separate Motor output Equally
 ![GFPA-LDA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/latentcode_illustration.png?raw=true)
