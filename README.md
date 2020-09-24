@@ -104,7 +104,18 @@ As expected by the virtue of variability of biology and electrode sampling there
 ### Latent Neural modes of different areas don’t separate Motor output Equally
 ![GFPA-LDA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/latentcode_illustration.png?raw=true)
 
-The details to be updated soon.
+![Dimensionality Choice](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/GPFA_log_lik.png?raw=true)
+#### Fig: Measurement for optimal dimensionality for GPFA for 5 randomly sampled regions and session (Fitted with Sigmoid) 
+
+![GPFA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/GPFA-best-GFPALDA.png?raw=true)
+#### Fig: Motor Output mapped on GPFA Representation (Best and Worst Seperation of left vs right vs no motion)
+
+![LDA Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/LDA-best-GFPALDA.png?raw=true)
+#### Fig: LDA for Motor Output in 20-dimensional GPFA Reduced Space (Best and Worst Seperation of left vs right vs no motion)
+
+![Classification Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/classification_metrics_GFPALDA.png?raw=true)
+#### Fig: LDA Based Classification Results adjusted for Label Imbalanced Dataset 
+
 
 #### References
 
