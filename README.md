@@ -96,7 +96,7 @@ We found that certain regions have average higher variance and entropy of kernel
 
 We find that the entropy measure and variation measure are highly correlated across brain regions but the PCA participation fraction is quite variable and the correlation with other measures is region dependent. This might be becuase the PCA measure is normalised wrt kernel size.
 
-![Kernel Information Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/measure_correlation.png?raw=true)
+![Kernel Information Results](https://github.com/neurorishika/pod-96-manymanifolds/blob/master/Documentation/sensitivity_information.png?raw=true)
 #### Fig: Sensitivity of metrics for Information Content in Kernels to Session ID
 
 As expected by the virtue of variability of biology and electrode sampling there is some degree of senstitivity to Session ID
